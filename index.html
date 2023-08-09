@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">   
+    <title>Buses Alamo</title>
+</head>
+<body>
+     
+    <div class="container">
+        
+        <h1>Buses Alamo</h1>
+        <p>Escoge tu bus:</p>
+
+        <div class="opciones">
+            <p>Tipo A = $2 por persona</p>
+            <p>Tipo B = $2.5 por persona</p>
+            <p>Tipo C = $3 por persona</p>
+        </div>
+        
+        <div class="buses">
+            
+            <label for="">Tipo</label>
+            <select name="" id="tipo">
+                <option value="a">Tipo A</option>
+                <option value="b">Tipo B</option>
+                <option value="c">Tipo C</option>
+            </select>
+            
+        </div>
+    
+        
+        <div class="km">
+            <label for="">Km por recorrer</label>
+            <input id="km" type="number" placeholder="Km">
+        </div>
+    
+        
+        <div class="personas">
+            <label for="">Cantidad de personas</label>
+            <input id="personas" type="number" placeholder="Cantidad de personas">  
+        </div>
+    
+        <div class="btn">
+            <button id="btn_precio">Calcular precio</button>
+        </div>
+    
+        <div class="total">
+            <label for="">Costo del viaje:</label>
+            <p id="total"></p>
+            <label for="">Costo por persona:</label>
+            <p id="cuota"></p>
+        </div>
+        
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
